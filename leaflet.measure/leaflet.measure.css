@@ -1,40 +1,45 @@
 .leaflet-control-measure {
-	font-size: 16px;
-	font-weight: bold;
-	line-height: 21px;
-	}
+  font-size: 20px;
+  font-weight: bold;
+  line-height: 25px;
+  }
 
 .leaflet-bar-part-top-and-bottom {
-	-webkit-border-radius: 4px 4px 4px 4px;
-	        border-radius: 4px 4px 4px 4px;
-	border-bottom: none;
-	}
+ /* -webkit-border-radius: 4px 4px 4px 4px;
+          border-radius: 4px 4px 4px 4px;
+  border-bottom: none;*/
+  }
 
 .leaflet-touch .leaflet-bar-part-top-and-bottom {
-	-webkit-border-radius: 7px 7px 7px 7px;
-	        border-radius: 7px 7px 7px 7px;
-	border-bottom: none;
-	}
+/*  -webkit-border-radius: 7px 7px 7px 7px;
+          border-radius: 7px 7px 7px 7px;
+  border-bottom: none;*/
+  }
 
 .leaflet-control-measure-on .leaflet-control-measure {
-	box-shadow: 0 0 8px rgba(10,10,10,1.0);
-	}
+  background-color: #ffc !important;
+  }
 
 .leaflet-measure-tooltip {
-	font: 9px/1.25 "Helvetica Neue", Arial, Helvetica, sans-serif;
-	background-color: rgba(255, 255, 255, 0.7);
-	box-shadow: 0 0 5px #BBB;
-	margin: 0;
-	padding: 2px;
-	width: auto !important;
-	height: auto !important;
-	white-space: nowrap;
-	}
+  font: 12px/1.25 "Helvetica Neue", Arial, Helvetica, sans-serif;
+  background-color: rgba(255, 255, 255, 0.7);
+  box-shadow: 0 0 5px #BBB;
+  margin: 0;
+  padding: 2px;
+  width: auto !important;
+  height: auto !important;
+  white-space: nowrap;
+  }
 
 .leaflet-measure-tooltip-total {
-	font-weight: bold;
-	}
+  font-weight: bold;
+  }
 
 .leaflet-measure-tooltip-difference {
-	color: #777;
-	}
+  color: #777;
+  }
+
+.icon-ruler {
+    cursor: pointer;
+    background-image: url('data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAA0AAAANCAYAAABy6+R8AAAABHNCSVQICAgIfAhkiAAAAAlwSFlzAAAN1wAADdcBQiibeAAAABl0RVh0U29mdHdhcmUAd3d3Lmlua3NjYXBlLm9yZ5vuPBoAAADVSURBVCiRndIxSkMBEIThb18eSLCwV7DRIiRH8AZaWtnYeQIPINhbWIh9Kg+hCN4hEQsLUawsRBFEhLXZgEgUngvT/bOzDBuZqes0nR1dTRHRQPsH0McAw9IIlzhuC+hh7QewjEdco4dTbEMTEQOc4xBbuMcrdrGEE6ziCusVYBEXWKj4Po5q+0ZmmgljDNrMfIuIp9q2g/fM3I+IwENEbNa5w2JWIjNFxAHucFvAqEp4wRST0k1mfszam2LvG3CGSWY+z222ktrM/Pyt/rmmrvOvN/oCjRNGEaC8yE0AAAAASUVORK5CYII=') !important;
+}
